@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastrar</title>
+    <link rel="stylesheet" href="../style1.css">
+</head>
+<body class="flex">
+    <form action="write_db.php" method="post">
+        <div class="box">
+            <div class="box_inputs">
+                <label for="user">Usuário: </label>
+                <input type="text" name="user" id="user" placeholder="pedrinho_07">
+                <label for="email">E-mail: </label>
+                <input type="text" name="email" id="email" placeholder="pedrinho@example.com">
+                <label for="password">Senha: </label>
+                <input type="password" name="password" id="password" placeholder="12345678">
+            </div>
+            <div class="box_buttons">
+                <input type="submit" value="Cadastrar" name="submit">
+                <input type="reset" value="Limpar">
+            </div>
+        </div>
+    </form>
+</body>
+</html>
